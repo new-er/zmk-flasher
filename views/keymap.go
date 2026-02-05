@@ -31,11 +31,11 @@ func newKeyMap() keyMap {
 	}
 	return keyMap{
 		left: key.NewBinding(
-			key.WithKeys("h"),
+			key.WithKeys("h", "left"),
 			key.WithHelp("h", "navigate left"),
 		),
 		right: key.NewBinding(
-			key.WithKeys("l"),
+			key.WithKeys("l", "right"),
 			key.WithHelp("l", "navigate right"),
 		),
 		confirm: key.NewBinding(
