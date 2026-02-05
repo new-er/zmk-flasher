@@ -35,3 +35,6 @@ To find more about the usage of the application, run the following command:
 ```bash
 zmk-flasher --help
 ```
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
